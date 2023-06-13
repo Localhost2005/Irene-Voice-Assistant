@@ -2,5 +2,5 @@
 
 # WebApi Client
 переработан для мобильных устройств
-![webapi_client]([mypic.png](https://user-images.githubusercontent.com/135964005/245449834-9df8ab0a-9b36-41ef-b66d-3c254466420d.jpeg)){width=250}
 
+![webapi_client](https://github.com/Localhost2005/Irene-Voice-Assistant/assets/135964005/4be7e4e5-4553-4124-9970-259b475a0d6f){width=150}
