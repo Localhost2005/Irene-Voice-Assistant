@@ -10,8 +10,8 @@
 @font-face {
 	font-family: 'GolosUIWebRegular';
 	src: 
-		url('/fonts/Golos-UI_Regular.woff2') format('woff2'),
-		url('/fonts/Golos-UI_Regular.woff') format('woff');
+		url('/webapi_client/fonts/golos-ui_regular.woff2') format('woff2'),
+		url('/webapi_client/fonts/golos-ui_regular.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -28,18 +28,17 @@ body {
 }
 
 #center, #microphone {
+font-family: 'GolosUIWebRegular';
 display: inline-block;
 float: left;
 margin-top: 5px;
 text-align: center;
 width: 100%;
-}
-
-#microphone {
 
 }
 
 #comment_in {
+font-family: 'GolosUIWebRegular';
 display: inline-block;
 float: right;
 background-color:  #fdebd0; 
@@ -56,6 +55,7 @@ text-align: right;
 }
 
 #comment_out {
+font-family: 'GolosUIWebRegular';
 display: inline-block;
 float: left;
 background-color: #DAF7A6; 
