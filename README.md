@@ -2,5 +2,6 @@
 
 # WebApi Client
 переработан для мобильных устройств
+<br />доступен по адресу https://my_ip:5003/webapi_client
 
-![webapi_client](https://github.com/Localhost2005/Irene-Voice-Assistant/assets/135964005/9df8ab0a-9b36-41ef-b66d-3c254466420d)
+<img src="https://github.com/Localhost2005/Irene-Voice-Assistant/assets/135964005/4be7e4e5-4553-4124-9970-259b475a0d6f" width="450">
