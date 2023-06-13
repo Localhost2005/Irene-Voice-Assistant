@@ -1,0 +1,91 @@
+#wrapper {
+    max-width: 900px;
+    margin: auto;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@font-face {
+	font-family: 'GolosUIWebRegular';
+	src: 
+		url('/fonts/Golos-UI_Regular.woff2') format('woff2'),
+		url('/fonts/Golos-UI_Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	font-family: 'GolosUIWebRegular';
+	font-weight: normal;
+	font-style: normal;
+}
+
+#trigger {
+    align-self: flex-start;
+    margin: auto;
+}
+
+#center, #microphone {
+display: inline-block;
+float: left;
+margin-top: 5px;
+text-align: center;
+width: 100%;
+}
+
+#microphone {
+
+}
+
+#comment_in {
+display: inline-block;
+float: right;
+background-color:  #fdebd0; 
+padding: 20px;
+margin-top: 20px;
+margin-right: 10px;
+width: 75%;
+border: 1px solid #2c3e50;
+-webkit-border-top-left-radius: 25px;
+-webkit-border-top-right-radius: 1px;
+-webkit-border-bottom-right-radius: 25px;
+-webkit-border-bottom-left-radius: 25px;
+text-align: right;
+}
+
+#comment_out {
+display: inline-block;
+float: left;
+background-color: #DAF7A6; 
+padding: 20px;
+margin-top: 20px;
+margin-left: 10px;
+width: 75%;
+border: 1px solid #2c3e50;
+-webkit-border-top-left-radius: 1px;
+-webkit-border-top-right-radius: 25px;
+-webkit-border-bottom-right-radius: 25px;
+-webkit-border-bottom-left-radius: 25px;
+text-align: left;
+}
+
+h1{
+color: #2c3e50;
+line-height:30px;
+}
+
+h2{
+color: #2c3e50;
+font-size:40px;
+font-weight:200;
+letter-spacing:1px;
+line-height:30px;
+}
+
+p, span, div {
+color: #2c3e50;
+letter-spacing:1px;
+line-height:24px;
+}

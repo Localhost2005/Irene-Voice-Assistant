@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">  
+        <title>Janvarev / Irene-Voice-Assistant v1</title>
+        <script type="application/javascript" src="vosk.js"></script>
+        <script type="application/javascript" src="index.js"></script>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+		<div id="center">
+		<h1>Ирина персональный ассистент</h1>
+			<select id="irenemode" hidden>
+			  <option value="none">none</option>
+			  <option value="saytxt">saytxt</option>
+			  <option value="saywav">saywav</option>
+			  <option selected value="saytxt,saywav">saytxt,saywav</option>
+			  <option value="none,saytxt">none,saytxt</option>
+			  <option value="none,saywav">none,saywav</option>
+			  <option value="none,saytxt,saywav">none,saytxt,saywav</option>
+			</select>
+		</div>
+        <div id="center">
+			<input type="image" id="trigger" name="img" src="/webapi_client/svg/microphone_off.svg" width="50%" />
+        </div>
+		
+		<div id="comment_in">
+			<span>Вы:<br/></span>
+			<span id="recognition-result" style="color: #00aa00;"></span> 
+			<span id="partial" style="color: #666666;"></span>
+        </div>
+		
+		<div id="comment_out">
+		<span>Ирина:</span>
+		<div id="irene_answer" style="color: #a93226;">
+			...
+		</div>
+        </div>
+    </body>
+</html>
