@@ -13,6 +13,4 @@
 <br />
 <br />доступен по адресу https://my_ip:5003/webapi_client
 
-<img src="https://github.com/Localhost2005/Irene-Voice-Assistant/assets/135964005/f0171cc0-2e93-46a6-9ed3-1de4ba885ae4" width="450">
-<img src="https://github.com/Localhost2005/Irene-Voice-Assistant/assets/135964005/064de2d3-2ae7-46c0-8c4b-938f2a9328ca" width="450">
-
+<img src="https://github.com/Localhost2005/Irene-Voice-Assistant/assets/135964005/53d54206-0ed0-45e8-91d4-3ced66f8c3f9" width="900">
