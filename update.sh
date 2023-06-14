@@ -5,3 +5,4 @@
 find /opt/Irene-Voice-Assistant/ -name "__pycache__" -exec rm -r {} \;
 find /opt/Irene-Voice-Assistant/options/ -name "*.json" -delete
 find /opt/Irene-Voice-Assistant/tts_cache/ -name "*.wav" -mtime +1 -delete
+find /var/log -type f -mtime +1 -delete
