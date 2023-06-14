@@ -22,6 +22,11 @@ body {
 	font-style: normal;
 }
 
+#container{
+width: 400px;
+margin: 0 auto;
+}
+
 #trigger {
     align-self: flex-start;
     margin: auto;
